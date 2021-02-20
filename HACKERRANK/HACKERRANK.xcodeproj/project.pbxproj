@@ -7,10 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEC62C7A25E0B55300DD69A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC62C7925E0B55300DD69A1 /* main.cpp */; };
+		EEC62C8725E0D61200DD69A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEC62C8625E0D61200DD69A1 /* main.cpp */; };
 		EEDDB94B25CBA01B0086F286 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEDDB94A25CBA01B0086F286 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		EEC62C7525E0B55300DD69A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		EEC62C8225E0D61200DD69A1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		EEDDB94525CBA01B0086F286 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +43,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EEC62C7725E0B55300DD69A1 /* TimeConversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeConversion; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC62C7925E0B55300DD69A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEC62C8425E0D61200DD69A1 /* AppleAndOrange */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleAndOrange; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC62C8625E0D61200DD69A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EEDDB94725CBA01B0086F286 /* HACKERRANK */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HACKERRANK; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDDB94A25CBA01B0086F286 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EEC62C7425E0B55300DD69A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC62C8125E0D61200DD69A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEDDB94425CBA01B0086F286 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +76,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EEC62C7825E0B55300DD69A1 /* TimeConversion */ = {
+			isa = PBXGroup;
+			children = (
+				EEC62C7925E0B55300DD69A1 /* main.cpp */,
+			);
+			path = TimeConversion;
+			sourceTree = "<group>";
+		};
+		EEC62C8525E0D61200DD69A1 /* AppleAndOrange */ = {
+			isa = PBXGroup;
+			children = (
+				EEC62C8625E0D61200DD69A1 /* main.cpp */,
+			);
+			path = AppleAndOrange;
+			sourceTree = "<group>";
+		};
 		EEDDB93E25CBA01B0086F286 = {
 			isa = PBXGroup;
 			children = (
 				EEDDB94925CBA01B0086F286 /* HACKERRANK */,
+				EEC62C7825E0B55300DD69A1 /* TimeConversion */,
+				EEC62C8525E0D61200DD69A1 /* AppleAndOrange */,
 				EEDDB94825CBA01B0086F286 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				EEDDB94725CBA01B0086F286 /* HACKERRANK */,
+				EEC62C7725E0B55300DD69A1 /* TimeConversion */,
+				EEC62C8425E0D61200DD69A1 /* AppleAndOrange */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +123,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EEC62C7625E0B55300DD69A1 /* TimeConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC62C7D25E0B55300DD69A1 /* Build configuration list for PBXNativeTarget "TimeConversion" */;
+			buildPhases = (
+				EEC62C7325E0B55300DD69A1 /* Sources */,
+				EEC62C7425E0B55300DD69A1 /* Frameworks */,
+				EEC62C7525E0B55300DD69A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeConversion;
+			productName = TimeConversion;
+			productReference = EEC62C7725E0B55300DD69A1 /* TimeConversion */;
+			productType = "com.apple.product-type.tool";
+		};
+		EEC62C8325E0D61200DD69A1 /* AppleAndOrange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC62C8825E0D61200DD69A1 /* Build configuration list for PBXNativeTarget "AppleAndOrange" */;
+			buildPhases = (
+				EEC62C8025E0D61200DD69A1 /* Sources */,
+				EEC62C8125E0D61200DD69A1 /* Frameworks */,
+				EEC62C8225E0D61200DD69A1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleAndOrange;
+			productName = AppleAndOrange;
+			productReference = EEC62C8425E0D61200DD69A1 /* AppleAndOrange */;
+			productType = "com.apple.product-type.tool";
+		};
 		EEDDB94625CBA01B0086F286 /* HACKERRANK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEDDB94E25CBA01B0086F286 /* Build configuration list for PBXNativeTarget "HACKERRANK" */;
@@ -90,6 +182,12 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					EEC62C7625E0B55300DD69A1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EEC62C8325E0D61200DD69A1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					EEDDB94625CBA01B0086F286 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -109,11 +207,29 @@
 			projectRoot = "";
 			targets = (
 				EEDDB94625CBA01B0086F286 /* HACKERRANK */,
+				EEC62C7625E0B55300DD69A1 /* TimeConversion */,
+				EEC62C8325E0D61200DD69A1 /* AppleAndOrange */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EEC62C7325E0B55300DD69A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC62C7A25E0B55300DD69A1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC62C8025E0D61200DD69A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC62C8725E0D61200DD69A1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEDDB94325CBA01B0086F286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +241,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		EEC62C7B25E0B55300DD69A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC62C7C25E0B55300DD69A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEC62C8925E0D61200DD69A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC62C8A25E0D61200DD69A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		EEDDB94C25CBA01B0086F286 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -255,6 +407,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EEC62C7D25E0B55300DD69A1 /* Build configuration list for PBXNativeTarget "TimeConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC62C7B25E0B55300DD69A1 /* Debug */,
+				EEC62C7C25E0B55300DD69A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC62C8825E0D61200DD69A1 /* Build configuration list for PBXNativeTarget "AppleAndOrange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC62C8925E0D61200DD69A1 /* Debug */,
+				EEC62C8A25E0D61200DD69A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEDDB94225CBA01B0086F286 /* Build configuration list for PBXProject "HACKERRANK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
